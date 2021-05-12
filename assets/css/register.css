@@ -48,6 +48,7 @@ input {
     border: 1px solid #1db0ed !important;
     outline: none;
     transition: 0.4s;
+    margin: 0 auto !important;
 }
 
 input::placeholder {
@@ -125,9 +126,10 @@ input:focus {
     border-top: 3px solid #1db0ed;
     border-bottom: 3px solid #1db0ed;
 }
-.logo__img{
+
+.logo__img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
