@@ -28,6 +28,7 @@
                 <input type="password" id="l_password" name="l_password" class="form-control"
                        placeholder="Type Your password" required>
             </div>
+
         </form>
     </main>
 </div>
