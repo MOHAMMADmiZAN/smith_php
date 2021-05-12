@@ -1,0 +1,807 @@
+/*=================== extra-small-part-start==============================*/
+@media (min-width: 320px ) and (max-width: 575px ) {
+    nav {
+        background: url("../images/bg2.png") center no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    nav .navbar-toggler {
+        outline: none;
+        color: #1db0ed;
+        border-top: 1px solid #1db0ed;
+        border-bottom: 1px solid #1db0ed;
+        border-radius: 10px;
+    }
+
+
+    nav .navbar-toggler:hover {
+        outline: none;
+        color: #1db0ed;
+        border-top: 3px solid #1db0ed;
+        border-bottom: 3px solid #1db0ed;
+
+    }
+
+    .navbar-nav .nav-item a {
+        border: none;
+        display: block;
+    }
+
+    #banner .banner-part .img {
+        margin-top: 70px;
+    }
+
+    #banner .banner-part .img img {
+        width: 240px;
+    }
+
+    #banner .banner-part .text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #banner .overlay .text h5 {
+        margin-right: 30px;
+    }
+
+    #banner .banner-part .button {
+        margin-top: 30px;
+    }
+
+    #banner .overlay .button a {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social h3 {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social {
+        margin-top: 30px;
+    }
+
+    #about {
+        padding: 60px 0;
+    }
+
+    #about .left-side {
+        justify-content: center;
+    }
+
+    #about .left-side img {
+        width: 300px;
+    }
+
+    #about .right-side .text {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about .right-side .text h3 {
+        font-size: 16px;
+    }
+
+    #about .right-side .text h2 {
+        font-size: 24px;
+    }
+
+    #about .right-side .text p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    #about .right-side .button a {
+        font-size: 16px;
+        display: block;
+    }
+
+    #about .skill-part .counter .name {
+        font-size: 16px;
+    }
+
+    #about .skill-part .counter .count {
+        font-size: 14px;
+    }
+
+    #about .skill-part .counter .icon i {
+        font-size: 24px;
+    }
+
+    #services {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #services .service-title h3 {
+        font-size: 16px;
+    }
+
+    #services .service-title h2 {
+        font-size: 24px;
+    }
+
+    #services .service-tab .icon i {
+        font-size: 24px;
+    }
+
+    #services .service-tab .name h5 {
+        font-size: 16px;
+    }
+
+    #services .service-tab .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #portfolio {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #portfolio .text h3 {
+        font-size: 16px;
+    }
+
+    #portfolio .text h2 {
+        font-size: 24px;
+    }
+
+    #portfolio .portfolio-images .prev {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #portfolio .portfolio-images .next {
+        top: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #portfolio .portfolio-images .item .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Feedback {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #Feedback h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .text h2 {
+        font-size: 20px;
+    }
+
+    #Feedback .customer-tab {
+        margin-top: 30px;
+    }
+
+    #Feedback .customer-tab .customer-text h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .customer-tab .customer-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #Feedback .customer-tab .icon i {
+        font-size: 20px;
+    }
+
+    .back-to-top i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #contact .get-part .text {
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    #contact .get-part .text h2 {
+        font-size: 20px;
+
+    }
+
+    #contact .get-part input {
+        margin: 15px 0;
+    }
+
+    #contact .get-part textarea {
+        margin: 15px 0;
+    }
+
+    #contact-bottom {
+        padding: 60px 0;
+    }
+
+    #contact-bottom .contact-details {
+        padding-top: 30px;
+    }
+
+    #contact-bottom .contact-details .icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact-bottom .contact-details .text h4 {
+        font-size: 16px;
+    }
+
+    #contact-bottom .contact-details .items {
+        border-right: 2px solid #1db0ed;
+        border-radius: 10%;
+        transition: 0.4s;
+        border-left: 2px solid #1db0ed;
+    }
+
+}
+
+
+/*=================== extra-small-part-start==============================*/
+
+/*=================== small-part-start==============================*/
+
+@media (min-width: 576px ) and (max-width: 767px) {
+
+    nav {
+        background: url("../images/bg2.png") center no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    nav .navbar-toggler {
+        outline: none;
+        color: #1db0ed;
+        border-top: 1px solid #1db0ed;
+        border-bottom: 1px solid #1db0ed;
+        border-radius: 10px;
+    }
+
+
+    nav .navbar-toggler:hover {
+        outline: none;
+        color: #1db0ed;
+        border-top: 3px solid #1db0ed;
+        border-bottom: 3px solid #1db0ed;
+
+    }
+
+    .navbar-nav .nav-item a {
+        border: none;
+        display: block;
+    }
+
+    #banner .banner-part .img {
+        margin-top: 70px;
+    }
+
+    #banner .banner-part .img img {
+        width: 240px;
+    }
+
+    #banner .banner-part .text {
+        text-align: right;
+
+    }
+
+    #banner .overlay .text h6 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #1db0ed;
+    }
+
+    #banner .overlay .text h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: #1db0ed;
+    }
+
+    #banner .overlay .text h5 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #222222;
+        text-align: right;
+        margin-right: 0;
+    }
+
+    #banner .banner-part .button {
+        margin-top: 30px;
+
+    }
+
+    #banner .banner-part .button a {
+        font-size: 14px;
+    }
+
+    #banner .overlay .social {
+        margin-top: 30px;
+
+    }
+
+    #banner .overlay .social h3 {
+        font-size: 14px;
+    }
+
+    #about {
+        padding: 60px 0;
+
+    }
+
+    #about .left-side {
+        justify-content: center;
+    }
+
+    #about .left-side img {
+        width: 300px;
+    }
+
+    #about .right-side .text {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    #about .right-side .text h3 {
+        font-size: 16px;
+    }
+
+    #about .right-side .text h2 {
+        font-size: 24px;
+    }
+
+    #about .right-side .text p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    #about .right-side .button {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about .right-side .button a {
+        font-size: 16px;
+        display: block;
+    }
+
+    #about .skill-part .counter .name {
+        font-size: 16px;
+    }
+
+    #about .skill-part .counter .count {
+        font-size: 14px;
+    }
+
+    #about .skill-part .counter .icon i {
+        font-size: 24px;
+    }
+
+    #services {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #services .service-title h3 {
+        font-size: 16px;
+    }
+
+    #services .service-title h2 {
+        font-size: 24px;
+    }
+
+    #services .service-tab .icon i {
+        font-size: 24px;
+    }
+
+    #services .service-tab .name h5 {
+        font-size: 16px;
+    }
+
+    #services .service-tab .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #portfolio {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #portfolio .text h3 {
+        font-size: 16px;
+    }
+
+    #portfolio .text h2 {
+        font-size: 24px;
+    }
+
+    #portfolio .portfolio-images .item .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    #portfolio .portfolio-images .prev {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #portfolio .portfolio-images .next {
+        top: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #Feedback {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #Feedback h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .text h2 {
+        font-size: 20px;
+    }
+
+    #Feedback .customer-tab {
+        margin-top: 30px;
+    }
+
+    #Feedback .customer-tab .customer-text h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .customer-tab .customer-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #Feedback .customer-tab .icon i {
+        font-size: 20px;
+    }
+
+    .back-to-top i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #contact .get-part .text {
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    #contact .get-part .text h2 {
+        font-size: 20px;
+
+    }
+
+    #contact .get-part input {
+        margin: 15px 0;
+    }
+
+    #contact .get-part textarea {
+        margin: 15px 0;
+    }
+
+    #contact-bottom {
+        padding: 60px 0;
+    }
+
+    #contact-bottom .contact-details {
+        padding-top: 30px;
+    }
+
+    #contact-bottom .contact-details .icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact-bottom .contact-details .text h4 {
+        font-size: 16px;
+    }
+
+
+}
+
+
+/*=================== small-part-end==============================*/
+/*=================== medium-part-start==============================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    nav {
+        background: url("../images/bg2.png") center no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+    nav .navbar-toggler {
+        outline: none;
+        color: #1db0ed;
+        border-top: 1px solid #1db0ed;
+        border-bottom: 1px solid #1db0ed;
+        border-radius: 10px;
+    }
+
+
+    nav .navbar-toggler:hover {
+        outline: none;
+        color: #1db0ed;
+        border-top: 3px solid #1db0ed;
+        border-bottom: 3px solid #1db0ed;
+
+    }
+
+    .navbar-nav .nav-item a {
+        border: none;
+        display: block;
+    }
+
+    #banner .banner-part .img {
+        margin-top: 70px;
+    }
+
+
+    #banner .banner-part .text {
+        text-align: right;
+
+    }
+
+    #banner .overlay .text h5 {
+        font-size: 24px;
+    }
+
+    #banner .overlay .text h1 {
+        font-size: 40px;
+    }
+
+    #banner .overlay .text h5 {
+        margin-right: 0;
+    }
+
+    #banner .banner-part .button {
+        margin-top: 30px;
+    }
+
+    #banner .overlay .button a {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social h3 {
+        font-size: 16px;
+    }
+
+    #banner .overlay .social {
+        margin-top: 30px;
+    }
+
+    #about .left-side {
+        justify-content: center;
+    }
+
+    #about .left-side img {
+        width: 350px;
+    }
+
+    #about .right-side .text {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    #about .right-side .text h3 {
+        font-size: 16px;
+    }
+
+    #about .right-side .text h2 {
+        font-size: 24px;
+    }
+
+    #about .right-side .text p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    #about .right-side .button a {
+        font-size: 16px;
+        display: block;
+    }
+
+    #about .right-side .button {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about .skill-part .counter .name {
+        font-size: 16px;
+    }
+
+    #about .skill-part .counter .count {
+        font-size: 14px;
+    }
+
+    #about .skill-part .counter .icon i {
+        font-size: 24px;
+    }
+
+    #services .service-title h3 {
+        font-size: 16px;
+    }
+
+    #services .service-title h2 {
+        font-size: 24px;
+    }
+
+    #services .service-tab .icon i {
+        font-size: 24px;
+    }
+
+    #services .service-tab .name h5 {
+        font-size: 16px;
+    }
+
+    #services .service-tab .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #portfolio {
+        text-align: center;
+    }
+
+    #portfolio .text h3 {
+        font-size: 16px;
+    }
+
+    #portfolio .text h2 {
+        font-size: 24px;
+    }
+
+    #portfolio .portfolio-images .item .img {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #portfolio .portfolio-images .item .img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #portfolio .portfolio-images .next {
+        position: absolute;
+        top: 380px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(29, 176, 237, 0.5);
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    #Feedback h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .text h2 {
+        font-size: 20px;
+    }
+
+    #Feedback .customer-tab {
+        margin-top: 30px;
+    }
+
+    #Feedback .customer-tab .customer-text h3 {
+        font-size: 16px;
+    }
+
+    #Feedback .customer-tab .customer-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #Feedback .customer-tab .icon i {
+        font-size: 16px;
+    }
+
+    .back-to-top i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+
+    #contact .get-part .text {
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    #contact .get-part .text h2 {
+        font-size: 20px;
+
+    }
+
+    #contact .get-part input {
+        margin: 15px 0;
+    }
+
+    #contact .get-part textarea {
+        margin: 15px 0;
+    }
+
+    #contact-bottom .contact-details {
+        padding-top: 30px;
+    }
+
+    #contact-bottom .contact-details .icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    #contact-bottom .contact-details .text h4 {
+        font-size: 16px;
+    }
+
+
+}
+
+
+/*=================== medium-part-stop==============================*/
+
+/*=================== large-part-start================================*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner .overlay .text h6 {
+        font-size: 24px;
+    }
+
+    #banner .overlay .text h1 {
+        font-size: 55px;
+    }
+
+
+    #about .left-side img {
+        width: 480px;
+    }
+
+    #portfolio .portfolio-images .item .img {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+/*==================================== large part- end ================================*/
