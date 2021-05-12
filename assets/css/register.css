@@ -35,6 +35,8 @@ label {
     font-size: 20px;
     color: #1db0ed;
     letter-spacing: 2px;
+    text-align: center;
+
 
 }
 
@@ -85,7 +87,8 @@ input:focus {
     transition: 0.4s;
     margin: 15px;
     background: transparent;
-    width: 200px;
+    width: 100%;
+
 }
 
 .submit:hover {
@@ -94,7 +97,9 @@ input:focus {
     background-size: cover;
     letter-spacing: 2px;
 }
-
+.submit:focus{
+    outline: none;
+}
 .h_title {
 
     font-family: 'Raleway', sans-serif;

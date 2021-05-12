@@ -34,25 +34,27 @@ session_start();
             </div>
         <?php } ?>
         <form action="registerResponse.php" method="POST">
-            <div class="form-group">
+            <div class="form-group ">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" class="form-control">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Type Your Name" required>
             </div>
-            <div class="form-group">
+            <div class="form-group ">
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email" class="form-control">
+                <input type="text" id="email" name="email" class="form-control" placeholder="Type Your Email" required>
 
             </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" class="form-control" <?php ?>>
+            <div class="form-group ">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-control"
+                       placeholder="Type Your Password" required>
 
             </div>
-            <div class="form-group">
-                <label for="c_password">Confirm Password</label>
-                <input type="password" id="c_password" name="c_password" class="form-control">
+            <div class="form-group ">
+                <label for="c_password">Confirm Password :</label>
+                <input type="password" id="c_password" name="c_password" class="form-control"
+                       placeholder="Type Your Password" required>
             </div>
-            <button class="submit" type="submit">SUBMIT</button>
+            <button class="submit my-auto" type="submit">SUBMIT</button>
 
         </form>
     </div>
