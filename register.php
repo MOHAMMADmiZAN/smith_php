@@ -20,7 +20,7 @@ session_start();
         <div class="logo text-center ">
             <img src="assets/images/smith-logo.png" alt="smith-logo" class="logo__img">
         </div>
-        <h6 class="h_title">REGISTRATION DATA</h6>
+        <h6 class="h_title text-uppercase">REGISTRATION DATA</h6>
         <?php if (isset($_SESSION['insertUserTrue'])) { ?>
             <div class="alert alert-success text-center text-uppercase w-80">
                 <?= $_SESSION['insertUserTrue'] ?>
@@ -41,13 +41,11 @@ session_start();
             <div class="form-group ">
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email" class="form-control" placeholder="Type Your Email" required>
-
             </div>
             <div class="form-group ">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" class="form-control"
                        placeholder="Type Your Password" required>
-
             </div>
             <div class="form-group ">
                 <label for="c_password">Confirm Password :</label>
