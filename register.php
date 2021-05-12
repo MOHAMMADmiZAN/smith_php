@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,11 +17,23 @@
 <main>
     <div class="container">
 
-        <div class="logo text-center m-5">
-            <img src="assets/images/smith-logo.png" alt="smith-logo">
-            <h6 class="h_title">REGISTRATION DATA</h6>
+        <div class="logo text-center ">
+            <img src="assets/images/smith-logo.png" alt="smith-logo" class="logo__img">
         </div>
-        <form action="" method="POST">
+        <h6 class="h_title">REGISTRATION DATA</h6>
+        <?php if (isset($_SESSION['insertUserTrue'])) { ?>
+            <div class="alert alert-success text-center text-uppercase w-80">
+                <?= $_SESSION['insertUserTrue'] ?>
+                <?php session_unset() ?>
+            </div>
+        <?php } ?>
+        <?php if (isset($_SESSION['emailFound'])) { ?>
+            <div class="alert alert-danger text-center text-uppercase">
+                <?= $_SESSION['emailFound'] ?>
+                <?php session_unset() ?>
+            </div>
+        <?php } ?>
+        <form action="registerResponse.php" method="POST">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" class="form-control">
@@ -26,10 +41,12 @@
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email" class="form-control">
+
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" class="form-control">
+                <input type="password" id="password" name="password" class="form-control" <?php ?>>
+
             </div>
             <div class="form-group">
                 <label for="c_password">Confirm Password</label>
